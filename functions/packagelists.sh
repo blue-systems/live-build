@@ -140,7 +140,7 @@ Discover_package_architectures ()
 				# Looking for <package>:<architecture>
 				if [ -n "$(echo ${_LB_PACKAGE_LINE_PART} | awk -F"=" '{print $1}' | awk -F':' '{print $2}')" ]
 				then
-					_LB_DISCOVERED_ARCHITECTURES="${_LB_DISCOVERED_ARCHITECTURES} $(echo ${_LB_PACKAGE_LINE_PART} | awk -F':' '{print $2}')"
+					_LB_DISCOVERED_ARCHITECTURES="${_LB_DISCOVERED_ARCHITECTURES} $(echo ${_LB_PACKAGE_LINE_PART} | awk -F':' '{print $2}' | awk -F'/' '{print $1}')"
 				fi
 			done
 		done < "${_LB_EXPANDED_PKG_LIST}"
