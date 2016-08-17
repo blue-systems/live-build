@@ -1200,6 +1200,10 @@ LB_GRUB_SPLASH="${LB_GRUB_SPLASH}"
 # (Default: ${LB_HDD_LABEL})
 LB_HDD_LABEL="${LB_HDD_LABEL}"
 
+# \$LB_MKFS_OPTIONS: set hdd label
+# (Default: ${LB_MKFS_OPTIONS})
+LB_MKFS_OPTIONS="${LB_MKFS_OPTIONS}"
+
 # \$LB_HDD_SIZE: set hdd filesystem size
 # (Default: ${LB_HDD_SIZE})
 LB_HDD_SIZE="${LB_HDD_SIZE}"
