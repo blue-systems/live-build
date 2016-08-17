@@ -1200,7 +1200,7 @@ LB_GRUB_SPLASH="${LB_GRUB_SPLASH}"
 # (Default: ${LB_HDD_LABEL})
 LB_HDD_LABEL="${LB_HDD_LABEL}"
 
-# \$LB_MKFS_OPTIONS: set hdd label
+# \$LB_MKFS_OPTIONS: options to pass to mkfs
 # (Default: ${LB_MKFS_OPTIONS})
 LB_MKFS_OPTIONS="${LB_MKFS_OPTIONS}"
 
